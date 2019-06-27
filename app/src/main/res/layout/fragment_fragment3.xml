@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.Fragment3">
+
+    <Button
+        android:text="okhttp上传文件"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bu1"/>
+
+    <Button
+        android:text="retrofit上传文件"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bu2"/>
+
+    <Button
+        android:text="server下载"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bu3"/>
+
+    <Button
+        android:text="广播测试"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bu4"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:id="@+id/f3_img"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
